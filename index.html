@@ -58,7 +58,7 @@
                         <i class="fa-solid fa-ellipsis-vertical"></i>
                         
                         <!-- bell btn with dropdown menù -->
-                        <div class="btn-group dropstart">
+                        <div class="btn-group dropdown">
                             <button type="button" class="btn btn-outline-light border-0" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa-solid fa-bell text-warning"></i>
                             </button>
@@ -76,13 +76,56 @@
         </header>
 
 
-        <!-- ***** MAIN ***** -->
+        <!-- ***** MAIN ***** 
+        sorting out icons-->
         <main class="container-fluid">
 
             <div class="row h-100">
 
-                <!-- *** SIDEBAR *** -->
-                <div id="sidebar" class="col-1"></div>
+                <!-- *** SIDEBAR ***
+                hover misses -->
+                <div id="sidebar" class="col-1">
+
+                    <div class="h-100 d-flex flex-column justify-content-between align-items-center">
+
+                        <!-- upper part of sidebar -->
+                        <div id="upper-side">
+                            
+                            <!-- home spot -->
+                            <div class="py-2">
+                                <i class="fa-solid fa-house px-2"></i>
+                                <span class="d-none d-lg-inline-block">Home</span>
+                            </div>
+
+                            <!-- stats spot -->
+                            <div class="py-2">
+                                <i class="fa-solid fa-chart-simple px-2"></i>
+                                <span class="d-none d-lg-inline-block">Stats</span>
+                            </div>
+
+                            <!-- signal spot -->
+                            <div class="py-2">
+                                <i class="fa-solid fa-signal px-2"></i>
+                                <span class="d-none d-lg-inline-block">Signal</span>
+                            </div>
+                        </div>
+
+                        <!-- downer part of sidebar -->
+                        <div id="downer-side">
+
+                            <!-- admin spot -->
+                            <div class="py-2">
+                                <i class="fa-solid fa-gear px-2"></i>
+                                <span class="d-none d-lg-inline-block">
+                                    Admin
+                                </span>
+                            </div>
+
+                        </div>
+
+                    </div>
+                
+                </div>
 
                 <!-- *** CONTENTS *** -->
                 <div class="col-11 px-0">
