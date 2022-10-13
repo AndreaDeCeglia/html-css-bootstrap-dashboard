@@ -33,7 +33,7 @@
                 <div class="row align-items-center">
 
                     <!-- LOGO SPOT -->
-                    <div class="col-1">
+                    <div class="col-1" role="button">
                         <img class="d-none d-lg-inline-block img-fluid" src="./assets/img/logo.svg" alt="">
                         <img class="d-inline-block d-lg-none img-fluid" src="./assets/img/mobile-logo.png" alt="">
                     </div>
@@ -42,7 +42,7 @@
                     <div class="col-10">
                         <div class="input-group">
                             <span class="input-group-text border-0" id="basic-addon1">
-                                <i class="fa-solid fa-magnifying-glass"></i>
+                                <i class="fa-solid fa-magnifying-glass" role="button"></i>
                             </span>
                             <input type="text" class="form-control border-0" placeholder="Prova a cercare: Lezioni di Laravel" aria-label="Username" aria-describedby="basic-addon1">
                         </div>
@@ -51,19 +51,21 @@
                     <!-- ICONS SPOT -->
                     <div class="col-1 d-flex justify-content-around align-items-center" role="button">
                         
-                        <i class="fa-solid fa-list px-1"></i>
+                        <i class="fa-solid fa-list px-1 d-none d-lg-inline-block"></i>
                         
-                        <i class="fa-solid fa-circle-question px-1"></i>
+                        <i class="fa-solid fa-circle-question px-1 d-none d-lg-inline-block"></i>
                         
-                        <i class="fa-solid fa-ellipsis-vertical px-1"></i>
+                        <i class="fa-solid fa-ellipsis-vertical px-1 d-none d-lg-inline-block"></i>
                         
                         <!-- bell btn with dropdown menù -->
                         <div class="btn-group dropdown">
                             <button type="button" class="btn btn-outline-light border-0" data-bs-toggle="dropdown" aria-expanded="false">
                                 <i class="fa-solid fa-bell text-warning"></i>
                             </button>
-                            <ul class="dropdown-menu">
-                              <!-- Dropdown menu links -->
+                            <ul class="dropdown-menu text-center">
+                                <li role="button">Profilo</li>
+                                <li role="button">fatturazione</li>
+                                <li role="button">Log Out</li>
                             </ul>
                         </div>
 
@@ -76,14 +78,12 @@
         </header>
 
 
-        <!-- ***** MAIN ***** 
-        sorting out icons-->
+        <!-- ***** MAIN ***** -->
         <main class="container-fluid">
 
             <div class="row h-100">
 
-                <!-- *** SIDEBAR ***
-                hover misses -->
+                <!-- *** SIDEBAR *** -->
                 <div id="sidebar" class="col-1">
 
                     <div class="h-100 d-flex flex-column justify-content-between align-items-center">
@@ -92,19 +92,19 @@
                         <div id="upper-side">
                             
                             <!-- home spot -->
-                            <div class="py-2">
+                            <div class="py-2" role="button">
                                 <i class="fa-solid fa-house px-2"></i>
                                 <span class="d-none d-lg-inline-block">Home</span>
                             </div>
 
                             <!-- stats spot -->
-                            <div class="py-2">
+                            <div class="py-2" role="button">
                                 <i class="fa-solid fa-chart-simple px-2"></i>
                                 <span class="d-none d-lg-inline-block">Stats</span>
                             </div>
 
                             <!-- signal spot -->
-                            <div class="py-2">
+                            <div class="py-2" role="button">
                                 <i class="fa-solid fa-signal px-2"></i>
                                 <span class="d-none d-lg-inline-block">Signal</span>
                             </div>
@@ -114,7 +114,7 @@
                         <div id="downer-side">
 
                             <!-- admin spot -->
-                            <div class="py-2">
+                            <div class="py-2" role="button">
                                 <i class="fa-solid fa-gear px-2"></i>
                                 <span class="d-none d-lg-inline-block">
                                     Admin
@@ -140,32 +140,32 @@
                                 <h3 class="d-inline-block">
                                     Boolean
                                 </h3>
-                                <span class="badge rounded-pill text-bg-primary p-1 text-bg-dark bg-opacity-25">
+                                <span role="button" class="badge rounded-pill text-bg-primary p-1 text-bg-dark bg-opacity-25">
                                     Piano blaze
                                 </span>
                                 <br>
 
-                                <span class="badge rounded-pill text-bg-primary p-1 text-bg-dark bg-opacity-25">
+                                <span role="button" class="badge rounded-pill text-bg-primary p-1 text-bg-dark bg-opacity-25">
                                     3 app
                                 </span>
                     
                                 >>
                                 
                                 <!-- mobile pill -->
-                                <span class="badge rounded-pill text-bg-primary p-1 fs-6 text-bg-dark bg-opacity-25 d-lg-none">
+                                <span role="button" class="badge rounded-pill text-bg-primary p-1 fs-6 text-bg-dark bg-opacity-25 d-lg-none">
                                     <i class="fa-solid fa-plus"></i>
                                 </span>
                                 
                                 <!-- pills visible on lg size -->
-                                <span class="badge rounded-pill text-bg-primary p-1 text-bg-dark bg-opacity-25 d-none d-lg-inline-block">
+                                <span role="button" class="badge rounded-pill text-bg-primary p-1 text-bg-dark bg-opacity-25 d-none d-lg-inline-block">
                                     Boolean mobile app
                                 </span>
                     
-                                <span class="badge rounded-pill text-bg-primary p-1 text-bg-dark bg-opacity-25 d-none d-lg-inline-block">
+                                <span role="button" class="badge rounded-pill text-bg-primary p-1 text-bg-dark bg-opacity-25 d-none d-lg-inline-block">
                                     Boolean web app
                                 </span>
                     
-                                <span class="badge rounded-pill text-bg-primary p-1 text-bg-dark bg-opacity-25 d-none d-lg-inline-block">
+                                <span role="button" class="badge rounded-pill text-bg-primary p-1 text-bg-dark bg-opacity-25 d-none d-lg-inline-block">
                                     Boolean blog app
                                 </span>
                             
