@@ -49,13 +49,13 @@
                     </div>
                     
                     <!-- ICONS SPOT -->
-                    <div class="col-1 d-flex justify-content-around align-items-center">
+                    <div class="col-1 d-flex justify-content-around align-items-center" role="button">
                         
-                        <i class="fa-solid fa-list"></i>
+                        <i class="fa-solid fa-list px-1"></i>
                         
-                        <i class="fa-solid fa-circle-question"></i>
+                        <i class="fa-solid fa-circle-question px-1"></i>
                         
-                        <i class="fa-solid fa-ellipsis-vertical"></i>
+                        <i class="fa-solid fa-ellipsis-vertical px-1"></i>
                         
                         <!-- bell btn with dropdown menù -->
                         <div class="btn-group dropdown">
@@ -189,6 +189,115 @@
                             </div>
 
                         </div>
+
+                    </div>
+
+                    <!-- downer part of content -->
+                    <div class="row m-0 p-1">
+
+                        <!-- NEXT CLASSES AND FAQ SECTION -->
+                        <div class="col-lg-8">
+
+                            <!-- next classes container -->
+                            <div class="card">
+                                <div class="card-header d-flex justify-content-between">
+                                    
+                                    <!-- title spot -->
+                                    <h3>Prossime classi</h3>
+
+                                    <!-- ***** offcanvas btn ***** -->
+                                    <!-- visible btn -->
+                                    <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                                        +
+                                    </button>
+
+                                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  
+                                        <div class="offcanvas-header">
+    
+                                            <h5 class="offcanvas-title" id="offcanvasRightLabel">
+                                                Form
+                                            </h5>
+    
+                                            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  
+                                        </div>
+  
+                                        <div class="offcanvas-body">
+    
+                                            <!-- imported form -->
+                                            <form class="row g-3">
+                                                <div class="col-md-6">
+                                                  <label for="inputEmail4" class="form-label">Email</label>
+                                                  <div class="input-group mb-3">
+                                                    <span class="input-group-text" id="basic-addon1">@</span>
+                                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                                                  </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                  <label for="inputPassword4" class="form-label">Password</label>
+                                                  <input type="password" class="form-control" id="inputPassword4">
+                                                </div>
+                                                <div class="col-12">
+                                                  <label for="inputAddress" class="form-label">Indirizzo</label>
+                                                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                                                </div>
+                                                <div class="col-md-6">
+                                                  <label for="inputCity" class="form-label">Città</label>
+                                                  <input type="text" class="form-control" id="inputCity">
+                                                </div>
+                                                <div class="col-md-4">
+                                                  <label for="inputState" class="form-label">Stato</label>
+                                                  <select id="inputState" class="form-select">
+                                                    <option selected>Choose...</option>
+                                                    <option>...</option>
+                                                  </select>
+                                                </div>
+                                                <div class="col-md-2">
+                                                  <label for="inputZip" class="form-label">CAP</label>
+                                                  <input type="text" class="form-control" id="inputZip">
+                                                </div>
+                                                <div class="input-group mb-3">
+                                                    <label for="inputZip" class="form-label">Foto</label>
+                                                    <input type="file" class="form-control w-100 ms-0" id="inputGroupFile03" aria-describedby="inputGroupFileAddon03" aria-label="Upload">
+                                                </div>
+                                                <div class="col-12">
+                                                  <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                    <label class="form-check-label" for="gridCheck">
+                                                      Seleziona per proseguire
+                                                    </label>
+                                                  </div>
+                                                </div>
+                                                <div class="col-12">
+                                                    <button type="submit" class="btn btn-primary">
+                                                        Salva
+                                                    </button>
+                                                    <button type="submit" class="btn btn-warning">
+                                                        Svuota
+                                                    </button>
+                                                </div>
+                                            </form>
+  
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                  <li class="list-group-item">An item</li>
+                                  <li class="list-group-item">A second item</li>
+                                  <li class="list-group-item">A third item</li>
+                                </ul>
+                            </div>
+
+                            <!-- FAQ container -->
+                            
+                        
+                        </div>
+
+                        <!-- TODO SECTION -->
+                        <div class="col-lg-4"></div>
 
                     </div>
 
