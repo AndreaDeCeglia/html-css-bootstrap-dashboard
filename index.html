@@ -128,7 +128,7 @@
                 </div>
 
                 <!-- *** CONTENTS *** -->
-                <div class="col-11 px-0">
+                <div id="contents" class="col-11 px-0">
 
                     <!-- upper part of contents -->
                     <div class="container-fluid bg-primary text-white py-4">
@@ -200,6 +200,7 @@
 
                             <!-- next classes container -->
                             <div class="card">
+
                                 <div class="card-header d-flex justify-content-between">
                                     
                                     <!-- title spot -->
@@ -284,11 +285,243 @@
                                     </div>
 
                                 </div>
-                                <ul class="list-group list-group-flush">
-                                  <li class="list-group-item">An item</li>
-                                  <li class="list-group-item">A second item</li>
-                                  <li class="list-group-item">A third item</li>
-                                </ul>
+                                
+                                <!-- importet and customized table into the card -->
+                                <div class="table-responsive-lg">
+                                    
+                                    <table class="table ">
+                                        
+                                        <!-- head of the table -->
+                                        <thead>
+                                      
+                                            <tr>
+                                        
+                                                <th scope="col" >Nome</th>
+                                        
+                                                <th class="d-none d-lg-table-cell text-end" scope="col">Data inizio</th>
+                                        
+                                                <th class="d-none d-lg-table-cell text-end" scope="col">ROI</th>
+                                        
+                                                <th  scope="col" class="text-center">Stato</th>
+                                        
+                                                <th scope="col" class="text-center">Azioni</th>
+                                      
+                                            </tr>
+                                    
+                                        </thead>
+
+                                        <!-- body of the table -->
+                                        <tbody class="table-hover">
+                                            
+                                            <!-- first table's row -->
+                                            <tr>
+                                        
+                                                <th scope="row" ><img src="./assets/img/class-avatar.jpg" alt="" class="img-list" ><span class="ms-2 fw-light" >Classe 75</span></th>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">15 Feb 21</td>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">20%</td> 
+                                        
+                                                <td class="text-center">
+                                            
+                                                    <span class="badge text-bg-success text-center">
+                                                        Done
+                                                    </span>
+                                        
+                                                </td>
+                                        
+                                                <td class="text-center">
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary "><i class="fa-solid fa-pencil"></i></button>
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                        
+                                                </td>
+                                        
+                                      
+                                            </tr>
+                                      
+                                            <!-- second table's row -->
+                                            <tr>
+                                        
+                                                <th scope="row" ><img src="./assets/img/class-avatar.jpg" alt="" class="img-list"><span class="ms-2 fw-light">Classe 76</span></th>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">16 Feb 21</td>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">20%</td>
+                                        
+                                                <td class="text-center">
+                                                    <span class="badge text-bg-success text-center">
+                                                        Done
+                                                    </span>
+                                                </td>
+                                        
+                                                <td class="text-center">
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                        
+                                                </td>
+                                      
+                                            </tr>
+                                            
+                                            <!-- third table's row -->
+                                            <tr>
+                                        
+                                                <th scope="row" ><img src="./assets/img/class-avatar.jpg" alt="" class="img-list"><span class="ms-2 fw-light">Classe 77</span></th>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">17 Feb 21</td>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">20%</td>
+                                        
+                                                <td class="text-center">
+                                                    <span class="badge text-bg-warning text-center">
+                                                        Process
+                                                    </span>
+                                                </td>
+                                        
+                                                <td class="text-center">
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                        
+                                                </td>
+                                      
+                                            </tr>
+                                      
+                                            <!-- fourth row -->
+                                            <tr>
+                                        
+                                                <th scope="row" ><img src="./assets/img/class-avatar.jpg" alt="" class="img-list"><span class="ms-2 fw-light">Classe 78</span></th>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">18 Feb 21</td>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">20%</td>
+                                        
+                                                <td class="text-center">
+                                                    <span class="badge text-bg-success text-center">
+                                                        Success
+                                                    </span>
+                                                </td>
+                                        
+                                                <td class="text-center">
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                        
+                                                </td>
+                                      
+                                            </tr>
+                                      
+                                            <!-- fivth row -->
+                                            <tr>
+                                        
+                                                <th scope="row" ><img src="./assets/img/class-avatar.jpg" alt="" class="img-list"><span class="ms-2 fw-light">Classe 79</span></th>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">19 Feb 21</td>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">20%</td>
+                                        
+                                                <td class="text-center">
+                                                    <span class="badge text-bg-danger text-center">
+                                                        Failed
+                                                    </span>
+                                                </td>
+                                          
+                                                <td class="text-center">
+                                            
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                            
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                          
+                                                </td>
+                                      
+                                            </tr>
+                                      
+                                            <!-- sixth row -->
+                                            <tr>
+                                        
+                                                <th scope="row" ><img src="./assets/img/class-avatar.jpg" alt="" class="img-list"><span class="ms-2 fw-light">Classe 80</span></th>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">20 Feb 21</td>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">20%</td>
+                                        
+                                                <td class="text-center">
+                                                    <span class="badge text-bg-success text-center">
+                                                        Success
+                                                    </span>
+                                                </td>
+                                        
+                                                <td class="text-center">
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                        
+                                                </td>
+                                      
+                                            </tr>
+                                      
+                                            <!-- seventh row -->
+                                            <tr>
+                                        
+                                                <th scope="row" ><img src="./assets/img/class-avatar.jpg" alt="" class="img-list"><span class="ms-2 fw-light">Classe 81</span></th>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">21 Feb 21</td>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">20%</td>
+                                        
+                                                <td class="text-center">
+                                                    <span class="badge text-bg-danger text-center">
+                                                        Failed
+                                                    </span>
+                                                </td>
+                                        
+                                                <td class="text-center">
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                        
+                                                </td>
+                                      
+                                            </tr>
+                                      
+                                            <!-- eighth row -->
+                                            <tr>
+                                        
+                                                <th scope="row" ><img src="./assets/img/class-avatar.jpg" alt="" class="img-list"><span class="ms-2 fw-light">Classe 82</span></th>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">22 Feb 21</td>
+                                        
+                                                <td class="d-none d-lg-table-cell text-end">20%</td>
+                                        
+                                                <td class="text-center">
+                                                    <span class="badge text-bg-success ">
+                                                        Success
+                                                    </span>
+                                                </td>
+                                        
+                                                <td class="text-center">
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-pencil"></i></button>
+                                          
+                                                    <button type="button" class="btn btn-outline-secondary"><i class="fa-solid fa-trash"></i></button>
+                                        
+                                                </td>
+                                      
+                                            </tr>
+                                    
+                                        </tbody>
+                                  
+                                    </table>
+                                  
+                                </div>
+
                             </div>
 
                             <!-- FAQ container -->

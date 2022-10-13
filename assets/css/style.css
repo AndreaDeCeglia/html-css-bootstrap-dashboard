@@ -25,7 +25,7 @@ header{
 }
 
 main{
-    height: calc( 100% - 70px );
+    height: calc( 100vh - 70px );
 }
 
 /* ***** HEADER ***** */
@@ -46,10 +46,15 @@ main> .row{
     background-image: url('../img/sidebar-bg.png');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%;
+    height: calc( 100vh - 70px );
 }
 
 /* *** CONTENTS *** */
+
+#contents{
+    height: calc( 100vh - 70px );
+    overflow: auto;
+}
 
 /* *** OFFCANVAS *** */
 
@@ -73,3 +78,10 @@ main> .row{
         transform: translateX(100%);
     }
 }
+
+/* PROSSIME CLASSI */
+
+
+.img-list {
+    width: 30px;
+  }
